@@ -1,17 +1,21 @@
 * {
     font-family: sans-serif;
-    color: black;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: #071115;
+    color: #aa00a4;
 }
 
+h1 {
+    color: #071115;
+}
 
 h2 {
     margin: 0;
+    color: #aa00a4;
 }
 
 .content {
@@ -22,7 +26,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: gray;
+    background-image: linear-gradient( to top right, rgba(79,51,176,1.0),rgba(210,53,165));
     padding: 0 24px;
 }
 
@@ -30,7 +34,7 @@ h2 {
     border-radius: 3px;
     width: fit-content;
     margin-bottom: 24px;
-    background-color: wheat;
+    background-color: #071115;
 }
 
 .row {
@@ -43,10 +47,16 @@ h2 {
 
 .row div {
     flex: 1;
+    color: #aa00a4;
+}
+
+.title {
+    color: #aa00a4;
 }
 
 label {
     margin-right: 12px;
+    color: #aa00a4;
 }
 
 input {
@@ -54,16 +64,17 @@ input {
     justify-self: flex-end;
     font-size: 14px;
     height: 24px;
-    background-color: lightgray;
+    background-color: #1b2f38;
     outline: none;
     border: none;
     padding: 3px 6px;
     border-radius: 3px;;
+    color: #aa00a4;
 }
 
 button {
-    background-color: slategrey;
-    color: white;
+    background-color: #1b2f38;
+    color: #aa00a4;
     outline: none;
     border: none;
     font-size: 18px;
@@ -74,5 +85,5 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 0 20px #caf0f8;
+    box-shadow: 0 0 20px #aa00a4;
 }
